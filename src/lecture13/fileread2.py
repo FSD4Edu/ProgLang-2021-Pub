@@ -1,0 +1,6 @@
+file = open("sample.txt", "r", encoding = "utf_8")
+lines = file.read(5)
+print(lines)
+lines = file.read(5)
+print(lines)
+file.close()
